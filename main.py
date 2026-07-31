@@ -5,7 +5,7 @@ import pandas as pd
 
 from src.pipeline import SpatialDistrictResolver
 from src.analytics import RealEstateAnalytics
-from src.visualization import RealEstateDashboard
+from src.visualizacao import RealEstateDashboard
 
 BRUTO_DATA_PATH = os.path.join("data", "bruto", "alvaras_por_lote.xlsx")
 TRATADO_DATA_PATH = os.path.join("data", "tratado", "alvaras_mapeados.xlsx")
@@ -33,7 +33,7 @@ def main():
     dashboard.build_panel(df_clean, output_path=FIGURE_OUTPUT_PATH)
 
     print("\nProcesso concluído com sucesso!")
-    print("Dados Mapeados: {PROCESSED_DATA_PATH}")
+    print("Dados Mapeados: {TRATADO_DATA_PATH}")
     print("Dashboard Salvo: {FIGURE_OUTPUT_PATH}")
 
 
