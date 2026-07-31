@@ -29,7 +29,6 @@ mercado_imobiliario_sp/
 │   └── tratado/                    # Dados limpos e mapeados (alvaras_mapeados.xlsx)
 ├── reports/
 │   ├── figures/                    # gráficos gerados (.png)
-│   └── Report.pdf                  # Relatório
 ├── src/
 │   ├── __init__.py
 │   ├── config.py                   # Mapeamentos geográficos, constantes e listas
